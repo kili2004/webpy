@@ -29,7 +29,7 @@ class Browser:
         self._cookie_processor = HTTPCookieProcessor(self.cookiejar)
         self.form = None
 
-        self.url = "http://0.0.0.0:8080/"
+        self.url = "http://0.0.0.0/"
         self.path = "/"
 
         self.status = None
